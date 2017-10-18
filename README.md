@@ -46,5 +46,4 @@ Testing and debugging:
  - go to setup/terminal (Receive = AUTO, Trasmit = CR+LF, Local echo)
  - go to setup/Serialport (baud rate: 11500, data: 8 bit, parity: none, stop: 1 bit, flow control: none.)
    
-_______________________________________________________________________________
-- (C) COPYRIGHT 2016 STMicroelectronics                   ****END OF FILE**** -
+ ****END OF FILE**** -
