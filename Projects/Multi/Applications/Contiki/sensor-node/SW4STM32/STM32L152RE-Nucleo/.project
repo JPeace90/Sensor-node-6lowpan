@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>STM32L1xx-Nucleo-Udp_sender</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+		<nature>fr.ac6.mcu.ide.core.MCUProjectNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Drivers</name>
+			<type>2</type>
+			<locationURI>PARENT-7-PROJECT_LOC/Drivers</locationURI>
+		</link>
+		<link>
+			<name>Middlewares</name>
+			<type>2</type>
+			<locationURI>PARENT-7-PROJECT_LOC/Middlewares</locationURI>
+		</link>
+		<link>
+			<name>Src</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Src</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

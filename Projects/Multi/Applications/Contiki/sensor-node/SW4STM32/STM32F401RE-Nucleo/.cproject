@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="fr.ac6.managedbuild.config.gnu.cross.exe.debug.1964858751">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="fr.ac6.managedbuild.config.gnu.cross.exe.debug.1964858751" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="fr.ac6.managedbuild.config.gnu.cross.exe.debug.1964858751" name="Debug" parent="fr.ac6.managedbuild.config.gnu.cross.exe.debug" postannouncebuildStep="Generating binary and Printing size information:" postbuildStep="arm-none-eabi-objcopy -O binary &quot;${BuildArtifactFileBaseName}.elf&quot; &quot;${BuildArtifactFileBaseName}.bin&quot; &amp;&amp; arm-none-eabi-size &quot;${BuildArtifactFileName}&quot;">
+					<folderInfo id="fr.ac6.managedbuild.config.gnu.cross.exe.debug.1964858751." name="/" resourcePath="">
+						<toolChain id="fr.ac6.managedbuild.toolchain.gnu.cross.exe.debug.1188745690" name="Ac6 STM32 MCU GCC" superClass="fr.ac6.managedbuild.toolchain.gnu.cross.exe.debug">
+							<option id="fr.ac6.managedbuild.option.gnu.cross.mcu.1568854747" name="Mcu" superClass="fr.ac6.managedbuild.option.gnu.cross.mcu" value="STM32F401RETx" valueType="string"/>
+							<option id="fr.ac6.managedbuild.option.gnu.cross.board.812533138" name="Board" superClass="fr.ac6.managedbuild.option.gnu.cross.board" value="NUCLEO-F401RE" valueType="string"/>
+							<option id="fr.ac6.managedbuild.option.gnu.cross.floatabi.596485201" name="Floating-point ABI" superClass="fr.ac6.managedbuild.option.gnu.cross.floatabi" value="fr.ac6.managedbuild.option.gnu.cross.floatabi.soft" valueType="enumerated"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="fr.ac6.managedbuild.targetPlatform.gnu.cross.290880573" isAbstract="false" osList="all" superClass="fr.ac6.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/STM32F4xx-Nucleo-Udp_sender}/Debug" id="fr.ac6.managedbuild.builder.gnu.cross.663990358" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="fr.ac6.managedbuild.builder.gnu.cross">
+								<outputEntries>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="Debug"/>
+								</outputEntries>
+							</builder>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.1141398576" name="MCU GCC Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler">
+								<option id="fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level.650270053" name="Optimization Level" superClass="fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.debugging.level.907591402" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.1093924656" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../../Inc"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Middlewares/ST/Contiki_STM32_Library"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Middlewares/ST/Contiki_STM32_Library/Inc"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Middlewares/ST/Contiki_STM32_Library/dev/"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Middlewares/Third_Party/Contiki"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Middlewares/Third_Party/Contiki/apps/servreg-hack"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Middlewares/Third_Party/Contiki/core"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Middlewares/Third_Party/Contiki/core/sys"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Middlewares/Third_Party/Contiki/core/lib"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Middlewares/Third_Party/Contiki/core/net"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Middlewares/Third_Party/Contiki/core/dev"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Middlewares/Third_Party/Contiki/core/net/ip"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Middlewares/Third_Party/Contiki/core/net/ipv6"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Middlewares/Third_Party/Contiki/core/net/llsec"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Middlewares/Third_Party/Contiki/core/net/rpl"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/STM32F4xx_Nucleo"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/X-NUCLEO-IDS01Ax/Inc"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/Components"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/Components/spirit1/SPIRIT1_Library/Inc"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/Components/spirit1/SPIRIT1_Util/Inc"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/CMSIS/Include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/Components/Common"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/Components/hts221"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/Components/lis3mdl"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/Components/lps22hb"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/Components/lps25hb"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/Components/lsm6ds0"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/Components/lsm6ds3"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/Components/lsm6dsl"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/Components/lsm303agr"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/X_NUCLEO_IKS01A2"/>
+								</option>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1022247191" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="PROJECT_CONF_H=1"/>
+									<listOptionValue builtIn="false" value="X_NUCLEO_IDS01A4"/>
+									<listOptionValue builtIn="false" value="USE_USART2"/>
+									<listOptionValue builtIn="false" value="STM32F401xE"/>
+									<listOptionValue builtIn="false" value="USE_STM32F4XX_NUCLEO"/>
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+									<listOptionValue builtIn="false" value="HSE_VALUE=84000000ul"/>
+									<listOptionValue builtIn="false" value="USE_STDPERIPH_DRIVER"/>
+									<listOptionValue builtIn="false" value="NO_EEPROM"/>
+									<listOptionValue builtIn="false" value="SPIRIT1_ST_SHIELD"/>
+									<listOptionValue builtIn="false" value="SPIRIT_MODULE"/>
+									<listOptionValue builtIn="false" value="USE_SPIRIT1_DEFAULT"/>
+									<listOptionValue builtIn="false" value="WITH_UIP6"/>
+									<listOptionValue builtIn="false" value="IAR_ARM_CM3"/>
+									<listOptionValue builtIn="false" value="VECT_TAB_FLASH"/>
+									<listOptionValue builtIn="false" value="WITH_UIP"/>
+									<listOptionValue builtIn="false" value="WITH_ASCII"/>
+									<listOptionValue builtIn="false" value="CONTIKI=1"/>
+									<listOptionValue builtIn="false" value="UIP_CONF_TCP=1"/>
+									<listOptionValue builtIn="false" value="NETSTACK_CONF_WITH_IPV6=1"/>
+									<listOptionValue builtIn="false" value="UIP_CONF_IPV6_RPL=1"/>
+									<listOptionValue builtIn="false" value="AUTOSTART_ENABLE=1"/>
+								</option>
+								<option id="gnu.c.compiler.option.dialect.std.1864858954" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.c99" valueType="enumerated"/>
+								<option id="fr.ac6.managedbuid.gnu.c.compiler.option.misc.other.1221357553" name="Other flags" superClass="fr.ac6.managedbuid.gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-fmessage-length=0 -mno-unaligned-access -Wl,-cref -ffunction-sections -fdata-sections" valueType="string"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.715521184" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s.1061630591" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s"/>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.1265491998" name="MCU G++ Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler">
+								<option id="fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level.1723687738" name="Optimization Level" superClass="fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.880572697" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.linker.1347385185" name="MCU GCC Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.linker">
+								<option id="fr.ac6.managedbuild.tool.gnu.cross.c.linker.script.798049789" name="Linker Script (-T)" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.linker.script" value="../STM32F401RE_FLASH.ld" valueType="string"/>
+								<option id="gnu.c.link.option.ldflags.1168009453" name="Linker flags" superClass="gnu.c.link.option.ldflags" value="-specs=nano.specs" valueType="string"/>
+								<option id="gnu.c.link.option.libs.1472741910" name="Libraries (-l)" superClass="gnu.c.link.option.libs"/>
+								<option id="gnu.c.link.option.paths.333940262" name="Library search path (-L)" superClass="gnu.c.link.option.paths"/>
+								<option id="gnu.c.link.option.userobjs.1762182282" name="Other objects" superClass="gnu.c.link.option.userobjs"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.2010896674" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.1367181297" name="MCU G++ Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.archiver.1812290223" name="MCU GCC Archiver" superClass="fr.ac6.managedbuild.tool.gnu.archiver"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.assembler.1444124158" name="MCU GCC Assembler" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler">
+								<option id="gnu.both.asm.option.include.paths.889786461" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/Components/Common"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/Components/hts221"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/Components/lis3mdl"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/Components/lps22hb"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/Components/lps25hb"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/Components/lsm6ds0"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/Components/lsm6ds3"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/X_NUCLEO_IKS01A2"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/Components/lsm6dsl"/>
+									<listOptionValue builtIn="false" value="../../../../../../../../Drivers/BSP/Components/lsm303agr"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.947135944" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.assembler.input.1658216523" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="fr.ac6.managedbuild.config.gnu.cross.exe.debug.1964858751.1092954243" name="/" resourcePath="Middlewares/Third_Party/Contiki/apps/at-master">
+						<toolChain id="fr.ac6.managedbuild.toolchain.gnu.cross.exe.debug.135958624" name="Ac6 STM32 MCU GCC" superClass="fr.ac6.managedbuild.toolchain.gnu.cross.exe.debug" unusedChildren="">
+							<option id="fr.ac6.managedbuild.option.gnu.cross.mcu.1568854747.1077746244" name="Mcu" superClass="fr.ac6.managedbuild.option.gnu.cross.mcu.1568854747"/>
+							<option id="fr.ac6.managedbuild.option.gnu.cross.board.812533138.1437353202" name="Board" superClass="fr.ac6.managedbuild.option.gnu.cross.board.812533138"/>
+							<option id="fr.ac6.managedbuild.option.gnu.cross.floatabi.596485201.1962424603" name="Floating-point ABI" superClass="fr.ac6.managedbuild.option.gnu.cross.floatabi.596485201"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="fr.ac6.managedbuild.targetPlatform.gnu.cross" isAbstract="false" osList="all" superClass="fr.ac6.managedbuild.targetPlatform.gnu.cross"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.441119241" name="MCU GCC Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.1141398576">
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.420896336" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s.200343563" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s"/>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.506072381" name="MCU G++ Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.1265491998"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.linker.70041283" name="MCU GCC Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.linker.1347385185"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.384455958" name="MCU G++ Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.1367181297"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.archiver.86783635" name="MCU GCC Archiver" superClass="fr.ac6.managedbuild.tool.gnu.archiver.1812290223"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.assembler.2048196398" name="MCU GCC Assembler" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler.1444124158">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.684458522" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.assembler.input.1429670169" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f423xx.s|CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f413xx.s|CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f412zx.s|CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f412vx.s|CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f412rx.s|CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f412cx.s|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c|BSP/Components/spirit1/SPIRIT1_Util/Src/SPIRIT1_Util.c|BSP/STM32L0xx_Nucleo|CMSIS/Device/ST/STM32L0xx|STM32L0xx_HAL_Driver|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c|BSP/X-NUCLEO-IKS01A1|BSP/X-NUCLEO-IDW01M1|BSP/X-NUCLEO-IDW01M1/stm32_spwf_wifi.c|STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c|CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f479xx.s|CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f469xx.s|CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f446xx.s|CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f439xx.s|CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f437xx.s|CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f429xx.s|CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f427xx.s|CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f417xx.s|CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f415xx.s|CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f411xe.s|CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f410tx.s|CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f410rx.s|CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f410cx.s|CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f407xx.s|CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f405xx.s|CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f401xc.s|CMSIS/Device/ST/STM32F4xx/Source/Templates/iar|CMSIS/Device/ST/STM32F4xx/Source/Templates/arm|CMSIS/Device/ST/STM32L1xx|CMSIS/RTOS|CMSIS/Lib|CMSIS/DSP_Lib|CMSIS/Documentation|STM32L1xx_HAL_Driver|BSP/Components/stlm75|BSP/Components/st7735|BSP/Components/spfd5408|BSP/Components/lps25h|BSP/Components/ili9325|BSP/Components/ili9320|BSP/Components/hx8347d|BSP/Components/cs43l22|BSP/X_NUCLEO_IKS01A1|BSP/STM32L1xx_Nucleo" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
+						<entry excluding="Third_Party/Contiki/apps/at-master|ST/WMBUS_Library_2013|ST/Contiki_STM32_Library/Src/uart-msg.c|Third_Party/Contiki/tools|ST/WMBUS_Library|Third_Party/Contiki/core/dev/slip.c|Third_Party/Contiki/core/dev/serial-line.c|Third_Party/Contiki/dev|Third_Party/Contiki/dev/serial-line.c|Third_Party/Contiki/core/lib/trickle-timer.c|Third_Party/Contiki/core/lib/settings.c|Third_Party/Contiki/core/lib/ringbufindex.c|Third_Party/Contiki/core/lib/ringbuf.c|Third_Party/Contiki/core/lib/print-stats.c|Third_Party/Contiki/core/lib/petsciiconv.c|Third_Party/Contiki/core/lib/mmem.c|Third_Party/Contiki/core/lib/me.c|Third_Party/Contiki/core/lib/me_tabs.c|Third_Party/Contiki/core/lib/ifft.c|Third_Party/Contiki/core/lib/gcr.c|Third_Party/Contiki/core/lib/crc16.c|Third_Party/Contiki/core/lib/ccm-star.c|Third_Party/Contiki/core/lib/assert.c|Third_Party/Contiki/core/lib/aes-128.c|Third_Party/Contiki/core/lib/strncasecmp|Third_Party/Contiki/core/net/mac/framer.c|Third_Party/Contiki/core/net/mac/tsch|Third_Party/Contiki/core/net/ip/dhcpc.c|Third_Party/Contiki/core/net/llsec/noncoresec|Third_Party/Contiki/core/net/ip64|Third_Party/Contiki/apps/orchestra|Third_Party/Contiki/apps/oma-lwm2m|Third_Party/Contiki/apps/ipso-objects|Third_Party/Contiki/cpu/arm/stm32/uart.c|Third_Party/Contiki/dev/slip.c|Third_Party/Contiki/cpu/arm/stm32/sysmem.c|Third_Party/Contiki/cpu/arm/stm32/slip-uart1.c|Third_Party/Contiki/cpu/arm/stm32/crt.c|ST/Contiki_STM32_Library/dev/temperature-sensor.c|ST/Contiki_STM32_Library/dev/pressure-sensor.c|ST/Contiki_STM32_Library/dev/magneto-sensor.c|ST/Contiki_STM32_Library/dev/humidity-sensor.c|ST/Contiki_STM32_Library/dev/gyroscope-sensor.c|ST/Contiki_STM32_Library/dev/acceleration-sensor.c|ST/Contiki_STM32_Library/uart-msg.c|Third_Party/Contiki/core/net/http-socket|Third_Party/Contiki/apps/lwm2m|Third_Party/Contiki/core/net/mac/contikimac|ST/STM32_SPWF01SA|Third_Party/Contiki/cpu/arm/stm32l152/uart.c|Third_Party/Contiki/cpu/arm/stm32l152/sysmem.c|Third_Party/Contiki/cpu/arm/stm32l152/crt.c|Third_Party/Contiki/core/ctk|Third_Party/Contiki/apps/directory|Third_Party/Contiki/cpu/arm/stm32l152/slip-uart1.c|Third_Party/Contiki/cpu/x86|Third_Party/Contiki/apps/netconf|Third_Party/Contiki/cpu/arm/at91sam7s|Third_Party/Contiki/apps/httpd-ws|Third_Party/Contiki/apps/about|Third_Party/Contiki/apps/antelope|Third_Party/Contiki/apps/webserver|Third_Party/Contiki/apps/powertrace|Third_Party/Contiki/core/net/mac/sicslowmac|Third_Party/Contiki/apps/serial-shell|Third_Party/FreeRTOS|Third_Party/Contiki/apps/calc|Third_Party/Contiki/apps/http-post-auth|Third_Party/Contiki/apps/slip-cmd|Third_Party/Contiki/core/net/ipv4|Third_Party/Contiki/cpu/native|Third_Party/Contiki/core/loader|Third_Party/Contiki/apps/json|Third_Party/Contiki/apps/dhcp|Third_Party/Contiki/apps/codeprop|Third_Party/Contiki/apps/irc|Third_Party/Contiki/apps/email|Third_Party/Contiki/apps/unit-test|Third_Party/Contiki/cpu/arm/aducrf101|ST/STM32_USB_Device_Library|Third_Party/Contiki/apps/rest-engine|Third_Party/Contiki/core/net/mac/cxmac|Third_Party/Contiki/cpu/arm/common|Third_Party/Contiki/apps/er-coap|Third_Party/Contiki/apps/shell|Third_Party/Contiki/apps/webbrowser|Third_Party/Contiki/apps/deluge|Third_Party/Contiki/cpu/arm/openocd|Third_Party/Contiki/apps/cmdd|Third_Party/Contiki/apps/collect-view|Third_Party/Contiki/apps/telnetd|Third_Party/Contiki/apps/telnet|Third_Party/FatFs|Third_Party/Contiki/apps/ftp|Third_Party/Contiki/apps/webserver-nano|Third_Party/Contiki/core/net/rime|Third_Party/Contiki/apps/mqtt|Third_Party/Contiki/apps/program-handler|Third_Party/Contiki/core/cfs|Third_Party/Contiki/core/net/llsec/ccm-star.c|Third_Party/Contiki/apps/process-list|Third_Party/Contiki/cpu/arm/stm32f103|Third_Party/Contiki/cpu/arm/stm32l152/lib|Third_Party/Contiki/apps/ping6" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Middlewares"/>
+						<entry excluding="cube_hal_l1.c|stm32l1xx_it.c|stm32l1xx_hal_msp.c|spirit1_appli.c|system_stm32f4xx.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="STM32F4xx-Nucleo-Udp_sender.fr.ac6.managedbuild.target.gnu.cross.exe.427782569" name="Executable" projectType="fr.ac6.managedbuild.target.gnu.cross.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.exe.debug.1964858751;fr.ac6.managedbuild.config.gnu.cross.exe.debug.1964858751.;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.1141398576;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.715521184">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/STM32F4xx-Nucleo-Udp_sender"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>
